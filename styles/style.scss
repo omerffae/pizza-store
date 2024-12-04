@@ -1,0 +1,49 @@
+// ! GLOBAL İMPORT
+// ? FONT AWSOME CDN
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+// ? GOOGLE FONT
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+// ! SCSS İMPORT
+@import "./variables";
+@import "./footer";
+@import "./global";
+@import "./header";
+@import "./responsive";
+@import "./home_main";
+
+// ! CSS RESET
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  overflow: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: $black-color;
+  color: $main-color;
+  border: 2px solid $white-color;
+  padding: 10px;
+  border-radius: 10px;
+  @extend .transition;
+  &:hover {
+          background-color: $white-color;
+          border: 2px solid $main-color;
+          color: $black-color;
+  }
+}

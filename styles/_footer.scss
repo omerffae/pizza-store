@@ -1,0 +1,107 @@
+// ! FOOTER İMPORT
+
+@import "./variables";
+@import "./global";
+
+footer {
+  background-color: $black-color;
+  height: 500px;
+  @extend .flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  .row {
+    border: 2px solid #fff;
+    height: 100%;
+    width: 450px;
+  }
+
+  .menu {
+    @extend .flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .footer-menu {
+      @extend .flex;
+      flex-direction: column;
+      gap: 10px;
+      h1 {
+        color: $main-color;
+        &:hover {
+          color: $white-color;
+        }
+        i {
+          @extend .transition;
+          &:hover {
+            color: $main-color;
+          }
+        }
+      }
+      a {
+        color: $white-color;
+        @extend .transition;
+        &:hover {
+          @extend .hover;
+          @extend .transform;
+        }
+      }
+    }
+  }
+
+  .iletisim {
+    @extend .flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .konum {
+      height: 40%;
+      width: 100%;
+      @extend .flex;
+      flex-direction: column;
+      justify-content: center;
+      h1 {
+        color: $main-color;
+        @extend .transition;
+        &:hover {
+          color: $white-color;
+        }
+      }
+      a {
+        color: $white-color;
+        @extend .transition;
+        &:hover {
+          @extend .hover;
+          @extend .transform;
+        }
+      }
+    }
+    .sosyal-medya {
+      height: 40%;
+      width: 100%;
+      @extend .flex;
+      flex-direction: column;
+      justify-content: center;
+      h1 {
+        color: $main-color;
+        @extend .transition;
+        &:hover {
+          color: $white-color;
+        }
+      }
+      .icons {
+        @extend .flex;
+        justify-content: center;
+        width: 100%;
+        padding: 50px;
+        gap: 20px;
+        a {
+          color: $white-color;
+          @extend .transition;
+          font-size: 2.5rem;
+          &:hover {
+            @extend .hover;
+            @extend .transform;
+          }
+        }
+      }
+    }
+  }
+}

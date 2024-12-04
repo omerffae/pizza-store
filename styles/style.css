@@ -1,0 +1,324 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.flex, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer .iletisim .sosyal-medya .icons, footer .iletisim .sosyal-medya, footer .iletisim .konum, footer .iletisim, footer .menu .footer-menu, footer .menu, footer {
+  display: flex;
+  align-items: center;
+}
+
+.text-font-size {
+  font-size: 1.2rem;
+}
+
+.button-font-size {
+  font-size: 1.8rem;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.transition, .btn, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .iletisim .sosyal-medya .icons a, footer .iletisim .sosyal-medya h1, footer .iletisim .konum a, footer .iletisim .konum h1, footer .menu .footer-menu a, footer .menu .footer-menu h1 i {
+  transition: all 0.5s ease;
+}
+
+.hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .iletisim .sosyal-medya .icons a:hover, footer .iletisim .konum a:hover, footer .menu .footer-menu a:hover {
+  color: red;
+}
+
+.transform, footer .iletisim .sosyal-medya .icons a:hover, footer .iletisim .konum a:hover, footer .menu .footer-menu a:hover {
+  transform: translateX(10px);
+}
+
+footer {
+  background-color: #000;
+  height: 500px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+footer .row {
+  border: 2px solid #fff;
+  height: 100%;
+  width: 450px;
+}
+footer .menu {
+  justify-content: space-around;
+  flex-direction: column;
+}
+footer .menu .footer-menu {
+  flex-direction: column;
+  gap: 10px;
+}
+footer .menu .footer-menu h1 {
+  color: red;
+}
+footer .menu .footer-menu h1:hover {
+  color: #fff;
+}
+footer .menu .footer-menu h1 i:hover {
+  color: red;
+}
+footer .menu .footer-menu a {
+  color: #fff;
+}
+footer .iletisim {
+  justify-content: space-around;
+  flex-direction: column;
+}
+footer .iletisim .konum {
+  height: 40%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .iletisim .konum h1 {
+  color: red;
+}
+footer .iletisim .konum h1:hover {
+  color: #fff;
+}
+footer .iletisim .konum a {
+  color: #fff;
+}
+footer .iletisim .sosyal-medya {
+  height: 40%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .iletisim .sosyal-medya h1 {
+  color: red;
+}
+footer .iletisim .sosyal-medya h1:hover {
+  color: #fff;
+}
+footer .iletisim .sosyal-medya .icons {
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+  gap: 20px;
+}
+footer .iletisim .sosyal-medya .icons a {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.flex, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer, footer .menu, footer .menu .footer-menu, footer .iletisim, footer .iletisim .konum, footer .iletisim .sosyal-medya, footer .iletisim .sosyal-medya .icons {
+  display: flex;
+  align-items: center;
+}
+
+.text-font-size {
+  font-size: 1.2rem;
+}
+
+.button-font-size {
+  font-size: 1.8rem;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.transition, .btn, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .menu .footer-menu h1 i, footer .menu .footer-menu a, footer .iletisim .konum h1, footer .iletisim .konum a, footer .iletisim .sosyal-medya h1, footer .iletisim .sosyal-medya .icons a {
+  transition: all 0.5s ease;
+}
+
+.hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
+  color: red;
+}
+
+.transform, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
+  transform: translateX(10px);
+}
+
+.flex, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer, footer .menu, footer .menu .footer-menu, footer .iletisim, footer .iletisim .konum, footer .iletisim .sosyal-medya, footer .iletisim .sosyal-medya .icons {
+  display: flex;
+  align-items: center;
+}
+
+.text-font-size {
+  font-size: 1.2rem;
+}
+
+.button-font-size {
+  font-size: 1.8rem;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.transition, .btn, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .menu .footer-menu h1 i, footer .menu .footer-menu a, footer .iletisim .konum h1, footer .iletisim .konum a, footer .iletisim .sosyal-medya h1, footer .iletisim .sosyal-medya .icons a {
+  transition: all 0.5s ease;
+}
+
+.hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
+  color: red;
+}
+
+.transform, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
+  transform: translateX(10px);
+}
+
+header {
+  background-color: black;
+  justify-content: space-around;
+  height: 100px;
+}
+header .logo {
+  border-radius: 50%;
+}
+header .logo a img {
+  height: 70px;
+  border-radius: 50%;
+}
+header nav .nav-item {
+  gap: 15px;
+}
+header nav .nav-item .item a {
+  color: #fff;
+}
+header nav .nav-button {
+  justify-content: space-between;
+  gap: 10px;
+}
+header .icons .icon {
+  gap: 10px;
+}
+/* phone */
+@media (max-width: 575px) {
+  nav {
+    display: none;
+  }
+  footer .menu {
+    display: none;
+  }
+  .home-main .content {
+    width: 100%;
+  }
+}
+/* Landscape */
+@media (min-width: 576px) and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+  .text-font-size {
+    font-size: 1.3rem;
+  }
+  footer .menu {
+    display: none;
+  }
+  .home-main .content {
+    width: 400px;
+    left: 10px;
+  }
+}
+/* tables */
+@media (min-width: 768px) and (max-width: 991px) {
+  .icons .icon a:last-child {
+    display: none;
+  }
+  .text-font-size {
+    font-size: 1.4rem;
+  }
+  footer .menu {
+    display: none;
+  }
+  .home-main .content {
+    width: 500px;
+    left: 30px;
+  }
+}
+/* desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .icons .icon a:last-child {
+    display: none;
+  }
+  .text-font-size {
+    font-size: 1.5rem;
+  }
+  .home-main .content {
+    width: 500px;
+    left: 40px;
+  }
+}
+/* large desktop */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .icons .icon a:last-child {
+    display: none;
+  }
+  .text-font-size {
+    font-size: 1.6rem;
+  }
+  .home-main .content {
+    width: 500px;
+    left: 50px;
+  }
+}
+/* xlarge desktop */
+@media (min-width: 1400px) {
+  .icons .icon a:last-child {
+    display: none;
+  }
+  .text-font-size {
+    font-size: 1.6rem;
+  }
+  .home-main .content {
+    width: 500px;
+    left: 60px;
+  }
+}
+.home-main {
+  background: url("../img/main-1.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.home-main .content {
+  height: 300px;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.home-main .content .title {
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.home-main .content .paragraf {
+  font-weight: bold;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  overflow: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #000;
+  color: red;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: #fff;
+  border: 2px solid red;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

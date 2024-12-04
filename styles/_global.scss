@@ -1,0 +1,30 @@
+@import "./variables";
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.text-font-size {
+  font-size: 1.2rem;
+}
+
+.button-font-size {
+  font-size: 1.8rem;
+}
+
+.icon-color {
+  color: $white-color;
+}
+
+.transition {
+  transition: all 0.5s ease;
+}
+
+.hover {
+  color: $main-color;
+}
+
+.transform {
+  transform: translateX(10px);
+}

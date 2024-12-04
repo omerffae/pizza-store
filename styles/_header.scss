@@ -1,0 +1,58 @@
+// _hedaer.scss İMPORT
+@import "./variables";
+@import "./global";
+
+header {
+  background-color: black;
+  @extend .flex;
+  justify-content: space-around;
+  height: 100px;
+  .logo {
+    border-radius: 50%;
+    a {
+      img {
+        height: 70px;
+        border-radius: 50%;
+      }
+    }
+  }
+  nav {
+    .nav-item {
+      @extend .flex;
+      gap: 15px;
+      .item {
+        a {
+          color: $white-color;
+          @extend .transition;
+          &:hover {
+            @extend .hover;
+          }
+        }
+      }
+    }
+    .nav-button {
+      @extend .flex;
+      justify-content: space-between;
+      gap: 10px;
+      i {
+        @extend .transition;
+        &:hover {
+          @extend .hover;
+        }
+      }
+    }
+  }
+
+  .icons {
+    .icon {
+      @extend .flex;
+      gap: 10px;
+      a {
+      @extend .transition;
+        &:hover {
+          @extend .hover;
+        }
+      }
+    }
+  }
+}
