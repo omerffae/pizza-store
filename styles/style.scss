@@ -11,6 +11,7 @@
 @import "./header";
 @import "./responsive";
 @import "./home_main";
+@import "./about";
 
 // ! CSS RESET
 
@@ -39,11 +40,11 @@ a {
   color: $main-color;
   border: 2px solid $white-color;
   padding: 10px;
-  border-radius: 10px;
   @extend .transition;
+  font-weight: bold;
   &:hover {
-          background-color: $white-color;
-          border: 2px solid $main-color;
-          color: $black-color;
+    background-color: $white-color;
+    border: 2px solid $main-color;
+    color: $black-color;
   }
 }

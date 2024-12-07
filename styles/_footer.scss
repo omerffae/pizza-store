@@ -21,17 +21,24 @@ footer {
     flex-direction: column;
     .footer-menu {
       @extend .flex;
-      flex-direction: column;
-      gap: 10px;
-      h1 {
-        color: $main-color;
-        &:hover {
-          color: $white-color;
-        }
-        i {
+      gap: 30px;
+      .pizzalar,
+      .tatlilar,
+      .icecekler {
+        @extend .flex;
+        flex-direction: column;
+        text-align: center;
+        h1 {
+          color: $main-color;
           @extend .transition;
           &:hover {
-            color: $main-color;
+            color: $white-color;
+          }
+          i {
+            @extend .transition;
+            &:hover {
+              color: $main-color;
+            }
           }
         }
       }
