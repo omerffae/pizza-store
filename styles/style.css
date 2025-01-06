@@ -218,6 +218,19 @@ header .icons .icon {
   nav {
     display: none;
   }
+  nav.active {
+    display: flex;
+    position: fixed;
+    top: 120px;
+    background-color: #000;
+    right: 15%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav.active .nav-item {
+    display: flex;
+    flex-direction: column;
+  }
   footer .menu {
     display: none;
   }
@@ -229,6 +242,19 @@ header .icons .icon {
 @media (min-width: 576px) and (max-width: 767px) {
   nav {
     display: none;
+  }
+  nav.active {
+    display: flex;
+    position: fixed;
+    top: 120px;
+    background-color: #000;
+    right: 18%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav.active .nav-item {
+    display: flex;
+    flex-direction: column;
   }
   .text-font-size {
     font-size: 1.3rem;

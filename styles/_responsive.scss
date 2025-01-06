@@ -3,6 +3,19 @@
   nav {
     display: none;
   }
+  nav.active {
+    display: flex;
+    position: fixed;
+    top: 120px;
+    background-color: $black-color;
+    right: 15%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav.active .nav-item {
+    display: flex;
+    flex-direction: column;
+  }
 
   footer {
     .menu {
@@ -12,7 +25,7 @@
 
   .home-main {
     .content {
-          width: 100%;
+      width: 100%;
     }
   }
 }
@@ -21,6 +34,19 @@
 @media (min-width: 576px) and (max-width: 767px) {
   nav {
     display: none;
+  }
+  nav.active {
+    display: flex;
+    position: fixed;
+    top: 120px;
+    background-color: $black-color;
+    right: 18%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav.active .nav-item {
+    display: flex;
+    flex-direction: column;
   }
 
   .text-font-size {
@@ -35,8 +61,8 @@
 
   .home-main {
     .content {
-          width: 400px;
-          left: 10px;
+      width: 400px;
+      left: 10px;
     }
   }
 }
@@ -61,8 +87,8 @@
 
   .home-main {
     .content {
-          width: 500px;
-          left: 30px;
+      width: 500px;
+      left: 30px;
     }
   }
 }
@@ -81,8 +107,8 @@
 
   .home-main {
     .content {
-          width: 500px;
-          left: 40px;
+      width: 500px;
+      left: 40px;
     }
   }
 }
@@ -101,8 +127,8 @@
 
   .home-main {
     .content {
-          width: 500px;
-          left: 50px;
+      width: 500px;
+      left: 50px;
     }
   }
 }
@@ -121,8 +147,8 @@
 
   .home-main {
     .content {
-          width: 500px;
-          left: 60px;
+      width: 500px;
+      left: 60px;
     }
   }
 }
