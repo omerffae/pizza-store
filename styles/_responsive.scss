@@ -11,6 +11,7 @@
     right: 15%;
     padding: 10px;
     border-radius: 10px;
+    z-index: 1;
   }
   nav.active .nav-item {
     display: flex;
@@ -28,6 +29,28 @@
       width: 100%;
     }
   }
+
+  .about-main {
+    .our-story {
+      width: 100%;
+    }
+    .chefs {
+      display: flex;
+      align-items: center;
+
+      .chef3 {
+        display: none;
+      }
+      .chef4 {
+        display: none;
+      }
+      .chef1,.chef2 {
+        width: 100% !important;
+      }
+    }
+  }
+
+  
 }
 
 /* Landscape */
@@ -65,6 +88,12 @@
       left: 10px;
     }
   }
+
+  .about-main {
+    .our-story {
+      width: 400px;
+    }
+  }
 }
 
 /* tables */
@@ -91,6 +120,13 @@
       left: 30px;
     }
   }
+
+  .about-main {
+    .our-story {
+      width: 400px;
+    }
+    
+  }
 }
 
 /* desktop */
@@ -109,6 +145,18 @@
     .content {
       width: 500px;
       left: 40px;
+    }
+  }
+
+  .about-main {
+    .our-story {
+      width: 500px;
+    }
+    .chefs {
+      .chef {
+        width: 300px !important;
+        height: 300px !important;
+      }
     }
   }
 }
@@ -131,6 +179,18 @@
       left: 50px;
     }
   }
+
+  .about-main {
+    .our-story {
+      width: 500px;
+    }
+    .chefs {
+      .chef {
+        width: 300px !important;
+        height: 300px !important;
+      }
+    }
+  }
 }
 
 /* xlarge desktop */
@@ -149,6 +209,18 @@
     .content {
       width: 500px;
       left: 60px;
+    }
+  }
+
+  .about-main {
+    .our-story {
+      width: 600px;
+    }
+    .chefs {
+      .chef {
+        width: 300px !important;
+        height: 300px !important;
+      }
     }
   }
 }

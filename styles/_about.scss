@@ -1,3 +1,93 @@
 // ! ABOUT İMPORT
 
-@import "./variables";
+.about-main {
+  background: url("../img/main-2.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  @extend .flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .our-story {
+    flex-direction: column;
+    @extend .flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    backdrop-filter: blur(2px);
+    .title {
+      span {
+        color: $white-color;
+      }
+    }
+  }
+  .chefs {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .chef1,
+    .chef2,
+    .chef3,
+    .chef4 {
+      background-color: $white-color;
+      height: 230px;
+      margin: 10px;
+      width: 200px;
+      @extend .flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: center;
+      position: relative;
+      border-radius: 10px;
+      img {
+        border-radius: 50%;
+        height: 80px;
+      }
+
+      i {
+        cursor: pointer;
+        @extend .transition;
+        &:hover {
+          @extend .hover;
+        }
+      }
+    }
+  }
+}
+
+.chef.active .content {
+  position: absolute;
+  background-color: $white-color;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+  margin-bottom: 30px;
+  width: 110%;
+}
+
+.chef1 .content p,
+.chef2 .content p,
+.chef3 .content p,
+.chef4 .content p {
+  display: none;
+}
+.chef1.active .content p,
+.chef2.active .content p,
+.chef3.active .content p,
+.chef4.active .content p {
+  display: block;
+}
+
+.our-story button{
+  display: block;
+}
+
+.our-story .content{
+  display: none;
+}
+.our-story.active .content{
+  display: block;
+}

@@ -1,6 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-.flex, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer .iletisim .sosyal-medya .icons, footer .iletisim .sosyal-medya, footer .iletisim .konum, footer .iletisim, footer .menu .footer-menu .pizzalar,
+.flex, .about-main .chefs .chef1,
+.about-main .chefs .chef2,
+.about-main .chefs .chef3,
+.about-main .chefs .chef4, .about-main .our-story, .about-main, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer .iletisim .sosyal-medya .icons, footer .iletisim .sosyal-medya, footer .iletisim .konum, footer .iletisim, footer .menu .footer-menu .pizzalar,
 footer .menu .footer-menu .tatlilar,
 footer .menu .footer-menu .icecekler, footer .menu .footer-menu, footer .menu, footer {
   display: flex;
@@ -19,7 +22,10 @@ footer .menu .footer-menu .icecekler, footer .menu .footer-menu, footer .menu, f
   color: #fff;
 }
 
-.transition, .btn, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .iletisim .sosyal-medya .icons a, footer .iletisim .sosyal-medya h1, footer .iletisim .konum a, footer .iletisim .konum h1, footer .menu .footer-menu a, footer .menu .footer-menu .pizzalar h1 i,
+.transition, .btn, .about-main .chefs .chef1 i,
+.about-main .chefs .chef2 i,
+.about-main .chefs .chef3 i,
+.about-main .chefs .chef4 i, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .iletisim .sosyal-medya .icons a, footer .iletisim .sosyal-medya h1, footer .iletisim .konum a, footer .iletisim .konum h1, footer .menu .footer-menu a, footer .menu .footer-menu .pizzalar h1 i,
 footer .menu .footer-menu .tatlilar h1 i,
 footer .menu .footer-menu .icecekler h1 i, footer .menu .footer-menu .pizzalar h1,
 footer .menu .footer-menu .tatlilar h1,
@@ -27,7 +33,10 @@ footer .menu .footer-menu .icecekler h1 {
   transition: all 0.5s ease;
 }
 
-.hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .iletisim .sosyal-medya .icons a:hover, footer .iletisim .konum a:hover, footer .menu .footer-menu a:hover {
+.hover, .about-main .chefs .chef1 i:hover,
+.about-main .chefs .chef2 i:hover,
+.about-main .chefs .chef3 i:hover,
+.about-main .chefs .chef4 i:hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .iletisim .sosyal-medya .icons a:hover, footer .iletisim .konum a:hover, footer .menu .footer-menu a:hover {
   color: red;
 }
 
@@ -118,7 +127,10 @@ footer .iletisim .sosyal-medya .icons a {
   color: #fff;
   font-size: 2.5rem;
 }
-.flex, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer, footer .menu, footer .menu .footer-menu, footer .menu .footer-menu .pizzalar,
+.flex, .about-main .chefs .chef1,
+.about-main .chefs .chef2,
+.about-main .chefs .chef3,
+.about-main .chefs .chef4, .about-main .our-story, .about-main, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer, footer .menu, footer .menu .footer-menu, footer .menu .footer-menu .pizzalar,
 footer .menu .footer-menu .tatlilar,
 footer .menu .footer-menu .icecekler, footer .iletisim, footer .iletisim .konum, footer .iletisim .sosyal-medya, footer .iletisim .sosyal-medya .icons {
   display: flex;
@@ -137,7 +149,10 @@ footer .menu .footer-menu .icecekler, footer .iletisim, footer .iletisim .konum,
   color: #fff;
 }
 
-.transition, .btn, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .menu .footer-menu .pizzalar h1,
+.transition, .btn, .about-main .chefs .chef1 i,
+.about-main .chefs .chef2 i,
+.about-main .chefs .chef3 i,
+.about-main .chefs .chef4 i, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .menu .footer-menu .pizzalar h1,
 footer .menu .footer-menu .tatlilar h1,
 footer .menu .footer-menu .icecekler h1, footer .menu .footer-menu .pizzalar h1 i,
 footer .menu .footer-menu .tatlilar h1 i,
@@ -145,7 +160,10 @@ footer .menu .footer-menu .icecekler h1 i, footer .menu .footer-menu a, footer .
   transition: all 0.5s ease;
 }
 
-.hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
+.hover, .about-main .chefs .chef1 i:hover,
+.about-main .chefs .chef2 i:hover,
+.about-main .chefs .chef3 i:hover,
+.about-main .chefs .chef4 i:hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
   color: red;
 }
 
@@ -153,7 +171,10 @@ footer .menu .footer-menu .icecekler h1 i, footer .menu .footer-menu a, footer .
   transform: translateX(10px);
 }
 
-.flex, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer, footer .menu, footer .menu .footer-menu, footer .menu .footer-menu .pizzalar,
+.flex, .about-main .chefs .chef1,
+.about-main .chefs .chef2,
+.about-main .chefs .chef3,
+.about-main .chefs .chef4, .about-main .our-story, .about-main, .home-main .content, header .icons .icon, header nav .nav-button, header nav .nav-item, header, footer, footer .menu, footer .menu .footer-menu, footer .menu .footer-menu .pizzalar,
 footer .menu .footer-menu .tatlilar,
 footer .menu .footer-menu .icecekler, footer .iletisim, footer .iletisim .konum, footer .iletisim .sosyal-medya, footer .iletisim .sosyal-medya .icons {
   display: flex;
@@ -172,7 +193,10 @@ footer .menu .footer-menu .icecekler, footer .iletisim, footer .iletisim .konum,
   color: #fff;
 }
 
-.transition, .btn, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .menu .footer-menu .pizzalar h1,
+.transition, .btn, .about-main .chefs .chef1 i,
+.about-main .chefs .chef2 i,
+.about-main .chefs .chef3 i,
+.about-main .chefs .chef4 i, header .icons .icon a, header nav .nav-button i, header nav .nav-item .item a, footer .menu .footer-menu .pizzalar h1,
 footer .menu .footer-menu .tatlilar h1,
 footer .menu .footer-menu .icecekler h1, footer .menu .footer-menu .pizzalar h1 i,
 footer .menu .footer-menu .tatlilar h1 i,
@@ -180,7 +204,10 @@ footer .menu .footer-menu .icecekler h1 i, footer .menu .footer-menu a, footer .
   transition: all 0.5s ease;
 }
 
-.hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
+.hover, .about-main .chefs .chef1 i:hover,
+.about-main .chefs .chef2 i:hover,
+.about-main .chefs .chef3 i:hover,
+.about-main .chefs .chef4 i:hover, header .icons .icon a:hover, header nav .nav-button i:hover, header nav .nav-item .item a:hover, footer .menu .footer-menu a:hover, footer .iletisim .konum a:hover, footer .iletisim .sosyal-medya .icons a:hover {
   color: red;
 }
 
@@ -226,6 +253,7 @@ header .icons .icon {
     right: 15%;
     padding: 10px;
     border-radius: 10px;
+    z-index: 1;
   }
   nav.active .nav-item {
     display: flex;
@@ -236,6 +264,22 @@ header .icons .icon {
   }
   .home-main .content {
     width: 100%;
+  }
+  .about-main .our-story {
+    width: 100%;
+  }
+  .about-main .chefs {
+    display: flex;
+    align-items: center;
+  }
+  .about-main .chefs .chef3 {
+    display: none;
+  }
+  .about-main .chefs .chef4 {
+    display: none;
+  }
+  .about-main .chefs .chef1, .about-main .chefs .chef2 {
+    width: 100% !important;
   }
 }
 /* Landscape */
@@ -266,6 +310,9 @@ header .icons .icon {
     width: 400px;
     left: 10px;
   }
+  .about-main .our-story {
+    width: 400px;
+  }
 }
 /* tables */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -282,6 +329,9 @@ header .icons .icon {
     width: 500px;
     left: 30px;
   }
+  .about-main .our-story {
+    width: 400px;
+  }
 }
 /* desktop */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -294,6 +344,13 @@ header .icons .icon {
   .home-main .content {
     width: 500px;
     left: 40px;
+  }
+  .about-main .our-story {
+    width: 500px;
+  }
+  .about-main .chefs .chef {
+    width: 300px !important;
+    height: 300px !important;
   }
 }
 /* large desktop */
@@ -308,6 +365,13 @@ header .icons .icon {
     width: 500px;
     left: 50px;
   }
+  .about-main .our-story {
+    width: 500px;
+  }
+  .about-main .chefs .chef {
+    width: 300px !important;
+    height: 300px !important;
+  }
 }
 /* xlarge desktop */
 @media (min-width: 1400px) {
@@ -320,6 +384,13 @@ header .icons .icon {
   .home-main .content {
     width: 500px;
     left: 60px;
+  }
+  .about-main .our-story {
+    width: 600px;
+  }
+  .about-main .chefs .chef {
+    width: 300px !important;
+    height: 300px !important;
   }
 }
 .home-main {
@@ -342,6 +413,96 @@ header .icons .icon {
 }
 .home-main .content .paragraf {
   font-weight: bold;
+}
+
+.about-main {
+  background: url("../img/main-2.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-main .our-story {
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+.about-main .our-story .title span {
+  color: #fff;
+}
+.about-main .chefs {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-main .chefs .chef1,
+.about-main .chefs .chef2,
+.about-main .chefs .chef3,
+.about-main .chefs .chef4 {
+  background-color: #fff;
+  height: 230px;
+  margin: 10px;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+.about-main .chefs .chef1 img,
+.about-main .chefs .chef2 img,
+.about-main .chefs .chef3 img,
+.about-main .chefs .chef4 img {
+  border-radius: 50%;
+  height: 80px;
+}
+.about-main .chefs .chef1 i,
+.about-main .chefs .chef2 i,
+.about-main .chefs .chef3 i,
+.about-main .chefs .chef4 i {
+  cursor: pointer;
+}
+.chef.active .content {
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+  margin-bottom: 30px;
+  width: 110%;
+}
+
+.chef1 .content p,
+.chef2 .content p,
+.chef3 .content p,
+.chef4 .content p {
+  display: none;
+}
+
+.chef1.active .content p,
+.chef2.active .content p,
+.chef3.active .content p,
+.chef4.active .content p {
+  display: block;
+}
+
+.our-story button {
+  display: block;
+}
+
+.our-story .content {
+  display: none;
+}
+
+.our-story.active .content {
+  display: block;
 }
 
 * {
@@ -370,6 +531,7 @@ a {
   border: 2px solid #fff;
   padding: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #fff;
